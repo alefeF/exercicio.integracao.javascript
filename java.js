@@ -13,7 +13,7 @@ form.addEventListener('submit',function (e) {
     valorA = document.getElementById ('campo A') ;
     valorB = document.getElementById ('campo B') ;
     mensagem =   ` esta valido, o B: ${valorB.value} esta maior que o A: ${valorA.value}`   
-    formvalidar = validar (valorA, valorB)
+    formvalidar = validar (valorA.value, valorB.value)
 
     if(formvalidar){
        alert(mensagem)
